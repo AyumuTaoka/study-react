@@ -4,7 +4,7 @@ interface HeadLineProps {
   title: string;
 }
 
-export default function HeadLine(props: HeadLineProps) {
+export function HeadLine(props: HeadLineProps) {
   return (
     <div>
       <h1 className={styles.title}>{props.title} Pages</h1>
