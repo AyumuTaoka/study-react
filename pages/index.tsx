@@ -1,5 +1,6 @@
 import Head from "next/head";
 import Footer from "../components/Footer";
+import HeadLine from "../components/HeadLine";
 import Links from "../components/Links";
 import styles from "../styles/Home.module.css";
 
@@ -13,14 +14,7 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
-        <h1 className={styles.title}>
-          こんにちは, <a href="https://nextjs.org">Next.js!</a>
-        </h1>
-
-        <p className={styles.description}>
-          Get started by editing{" "}
-          <code className={styles.code}>pages/index.tsx</code>
-        </p>
+        <HeadLine title="index" />
         <Links />
       </main>
 
