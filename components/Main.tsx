@@ -1,6 +1,6 @@
 import { HeadLine } from "../components/HeadLine";
 import { Links } from "../components/Links";
-import styles from "../styles/Home.module.css";
+import styles from "./Main.module.css";
 
 interface MainProps {
   title: string;
